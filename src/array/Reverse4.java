@@ -10,6 +10,7 @@ public class Reverse4 {
 		reverseArray(arr, n-k,n-1);
 		System.out.println();
 		reverseArray(arr, 0, n-1);
+		
 	}
 
 	static void reverseArray(int arr[],int start, int end) {
@@ -28,6 +29,7 @@ public class Reverse4 {
 			System.out.print(arr[k]);
 
 		}
+		
 	}
 
 }
