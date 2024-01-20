@@ -12,7 +12,7 @@ public static void main(String[] args) {
 			temp=arr[i];
 			arr[i]=arr[j];
 			arr[j]=temp;
-			j--;' '
+			j--;
 		}
 	}
 	for (int k = 0; k < arr.length; k++) {
