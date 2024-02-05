@@ -18,6 +18,7 @@ public class RemoveDuplicateSorted {
 				arr1[j]=arr[i];
 				j++;
 			}
+			 
 		}
 		Printa.print(arr1);
 	}
