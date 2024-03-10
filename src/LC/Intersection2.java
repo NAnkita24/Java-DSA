@@ -10,13 +10,14 @@ public class Intersection2 {
 	public static void main(String[] args) {
 		int [] arr1 = {4,9,5};
 		int [] arr2 = {9,4,9,8,4};
-		Arrays.sort(arr1);
-		Arrays.sort(arr2);
+		
 
 		function(arr1,arr2);
 	}
 
 	private static void function(int[] arr1,int[] arr2) {
+		Arrays.sort(arr1);
+		Arrays.sort(arr2);
 		HashSet<Integer>hs=new HashSet<>();
 		int j=0;
 		int i=0;
