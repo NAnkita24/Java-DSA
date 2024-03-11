@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 public class Intersection2 {
+	
 	private static final HashSet Integer = null;
 
 	public static void main(String[] args) {
