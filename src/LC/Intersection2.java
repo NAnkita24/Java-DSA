@@ -47,9 +47,7 @@ public class Intersection2 {
 		for (int k = 0; k < res.length; k++) {
 			res[k]=al.get(k);
 		}
-		
 		Printa.print(res);
-		
 	}
 	
 }
